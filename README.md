@@ -22,6 +22,13 @@ Var_1	|Anonymised Category for the customer
 
 * Based on the attributes group Segment of the customer
 
+# Requirements:
+## Google Maps API       https://developers.google.com/maps/documentation/javascript/examples/polyline-simple
+                         
+We used Google Maps Apis to draw a 2-pixel-wide polyline on Map showing the path Between the resulted Ports we are getting. For that, we required the Latitude and the Longitude of both the ports which we are getting from our main.py file. Used the Marker property of google maps to show the markers on both the points \. 
+## Rest API 
+ We used the Rest API to extract the Source City, Source Country, Destination City, and Destination Country from the user's input in our HTML file and supplied these parameters to our function that calculates the shortest path.
+
 ## Context
 An automobile company has plans to enter new markets with their existing products (P1, P2, P3, P4 and P5). After intensive market research, they’ve deduced that the behavior of new market is similar to their existing market.
 
